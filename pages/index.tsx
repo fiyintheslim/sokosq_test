@@ -11,7 +11,7 @@ export default function Home() {
   const { state, dispatch } = useContext(Context)
   return (
     <CartWrapper >
-      {state.products.map(({ name, price, amount }, i) => <ProductCard name={name} price={price} amount={amount} index={i} />)}
+      {state.products.map(({ name, price, amount }, i) => <ProductCard key={i} name={name} price={price} amount={amount} index={i} />)}
     </CartWrapper>
   )
 }
