@@ -29,8 +29,21 @@ export const CartStyles = styled.div`
   .items {
     height: 70vh;
     overflow-y: auto;
+
     ::-webkit-scrollbar {
-      display: none;
+      width: 0.8rem;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--grayPrimary);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: black;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(48, 48, 48);
     }
   }
 

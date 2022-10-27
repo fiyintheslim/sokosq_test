@@ -17,12 +17,9 @@ export const CardStyles = styled.div`
     font-size: 1.4rem;
     font-weight: 400;
   }
-
-  /* .remove {
-    position: absolute;
-    right: 0;
-    top: 1rem;
-  } */
+  .remove {
+    cursor: pointer;
+  }
 `;
 
 export const ImageContainerStyles = styled.div`
