@@ -18,7 +18,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ name, amount, price, i
             </ImageContainerStyles>
             <div>
                 <p className="name">{name}</p>
-                <p className="price">{price}</p>
+                <p className="price">#{price}</p>
             </div>
 
             <AmountControl amount={amount} index={index} />
